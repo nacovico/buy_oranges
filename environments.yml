@@ -1,0 +1,21 @@
+name: buy_oranges
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3.9
+  - numpy
+  - pandas
+  - scikit-learn
+  - matplotlib
+  - seaborn
+  - jupyter
+  - ipython
+  - holoviews
+  - hvplot
+  - panel
+  - bokeh
+  - tabulate
+  - pip
+  - pip:
+    - pywin32  # Windows only
